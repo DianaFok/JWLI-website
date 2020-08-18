@@ -1,0 +1,765 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 56px;
+}
+
+#hamburger, nav h2, nav img {
+  display: none;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  font-size: 30px;
+  margin-left: 80px;
+}
+
+button {
+  width: 150px;
+  height: 40px;
+  color: white;
+  background-color: black;
+  margin-left: 40px;
+}
+
+.one {
+  background-color: rgb(241, 243, 245);
+  width: 100%;
+  height: 400px;
+  margin-top: 10px;
+}
+
+.oneleft {
+  width: 60%;
+  height: 400px;
+  float: left;
+}
+
+.oneleft img {
+  height: 180px;
+  width: 390px;
+  margin-top: -18px;
+  margin-left: 140px;
+}
+
+.oneleft h2, .oneleft h6, .oneleft span {
+  margin-left: 50px;
+}
+
+.email {
+  width: 300px;
+  color: rgb(145, 156, 162);
+  background-color: white;
+}
+
+.submit {
+  color: white;
+  background-color: rgb(186, 197,206);
+}
+
+.oneright {
+  width: 39.7%;
+  height: 400px;
+  float: left;
+}
+
+.oneright img {
+  height: 400px;
+  width: 390px;
+  margin-top: 0px;
+  margin-left: 90px;
+}
+
+.two {
+  width: 100%;
+  height: 300px;
+  margin-top: 10px;
+}
+
+.two h2, .two h6 {
+  clear: both;
+  text-align: center;
+}
+
+.two h2 {
+  margin-top: 40px;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.two h6 {
+  font-size: 15px;
+  font-style: italic;
+  margin-top: 140px;
+}
+
+.two h4 {
+  border-top: 1px solid pink;
+  width: 500px;
+  margin-left: 170px;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  float: left;
+}
+
+.three, .four {
+  width: 100%;
+  height: 600px;
+  margin-top: 10px;
+}
+
+.three {
+  background-color: rgb(241, 243, 245);
+}
+
+.threeleft {
+  width: 60%;
+  height: 400px;
+  float: left;
+}
+
+.threeleft h3 {
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+.threeleft p {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.threeright {
+  width: 39.7%;
+  height: 400px;
+  float: left;
+}
+
+.threeright img {
+  width: 300px;
+  height: 230px;
+  margin-top: 40px;
+  margin-left: 150px;
+}
+
+.four h3 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.fourtop {
+  border: 1px solid black;
+  width: 80%;
+  height: 250px;
+  margin-top: -15px;
+  margin-left: 150px;
+}
+
+.fourtop img {
+  width: 200px;
+  height: 250px;
+}
+
+.fourtop img, .fourtop h4 {
+  float: left;
+}
+
+.fourtop h4 {
+  margin-left: 30px;
+  font-size: 18px;
+}
+
+.fourtop p {
+  margin-top: 90px;
+  margin-left: 230px;
+  clear: right;
+}
+
+.fourmiddle, .fourlast {
+  height: 250px;
+  width: 400px;
+  margin-top: 5px;
+  margin-left: 200px;
+  float: left;
+}
+
+.four h5 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.fourmiddle p, .fourlast p {
+  margin-top: 15px;
+}
+
+footer {
+  width: 100%;
+  height: 300px;
+  margin-top: 10px;
+}
+
+.footertop {
+  background-color: rgb(186, 197, 207);
+  width: 100%;
+  height: 60px;
+  margin-bottom: 0px;
+}
+
+.footertop h5, .footertop button {
+  float: left;
+}
+
+.footertop h5 {
+  color: white;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-left: 200px;
+}
+
+.footertop button {
+  margin-top: 10px;
+}
+
+.footerbottom {
+  background-color: rgb(145, 156, 162);
+  width: 100%;
+  height: 239px;
+  clear: both;
+}
+
+.bottomleft, .bottomright {
+  color: white;
+  font-size: 20px;
+  width: 49%;
+  height: 30px;
+  float: left;
+}
+
+.bottomleft h6 {
+  margin-top: 7px;
+}
+
+.bottomright h6 {
+  margin-top: 7px;
+  margin-right: 20px;
+  float: right;
+}
+
+.bottom2 {
+  border-top: 1px solid white;
+  width: 100%;
+  height: 200px;
+  clear: both;
+}
+
+.bot {
+  width: 100px;
+  height: 200px;
+  margin-left: 100px;
+  float: left;
+}
+
+.bot h5 {
+  font-size: 15px;
+  color: white;
+  text-align: center;
+}
+
+.bot h6 {
+  color: white;
+  flex-direction: 10px;
+  text-align: center;
+  margin-top: -5px;
+}
+
+@media only screen and (max-width: 600px) {
+  nav a, nav button, .three, .four, .oneright img, .oneleft img, .footerbottom, .footerbottom img {
+    display: none;
+  }
+
+  #hamburger {
+    display: block;
+    font-size: 30px;
+    margin-left: 10px;
+    float: left;
+  }
+
+  .one {
+    background-color: rgb(241, 243, 245);
+    width: 99.5%;
+    height: 180px;
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+
+  .oneleft {
+    width: 98%;
+    height: 200px;
+    float: left;
+  }
+
+  .oneleft h2, .oneleft h6, .oneleft span {
+    margin-left: 5px;
+    margin-bottom: 8px;
+  }
+
+  .email {
+    height: 20px;
+    width: 200px;
+    color: rgb(145, 156, 162);
+    background-color: white;
+    margin-left: 5px;
+  }
+
+  .submit {
+    height: 20px;
+    color: white;
+    background-color: rgb(186, 197,206);
+  }
+
+  .oneright {
+    width: 1%;
+    height: 0px;
+    float: left;
+  }
+
+  .two {
+    width: 99.5%;
+    height: 300px;
+    margin-top: 5px;
+  }
+
+  .two h2, .two h6 {
+    text-align: left;
+    margin-left: 5px;
+    clear: both;
+  }
+
+  .two h2 {
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+  }
+
+  .two h6 {
+    font-size: 13px;
+    font-style: italic;
+    margin-top: 220px;
+  }
+
+  .two h4 {
+    border-top: 1px solid pink;
+    margin-left: 5px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    text-align: left;
+  }
+
+  footer {
+    width: 99.5%;
+    height: 60px;
+    margin-top: 80px;
+    margin-bottom: 10px;
+  }
+
+  .footertop {
+    background-color: rgb(186, 197, 207);
+    width: 100%;
+    height: 50px;
+  }
+
+  .footertop h5, .footertop button {
+    float: left;
+  }
+
+  .footertop h5 {
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+
+  .footertop button {
+    height: 25px;
+    width: 100px;
+    margin-top: 6px;
+    margin-left: 15px;
+  }
+}
+
+@media only screen and (max-width: 800px) and (min-width: 601px) {
+  nav a, nav button, .three, .four, .oneright img, .oneleft img {
+    display: none;
+  }
+
+  #hamburger {
+    display: block;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+  }
+
+  nav img {
+    width: 170px;
+    height: 50px;
+    display: block;
+    margin-left: 540px;
+  }
+
+  .one {
+    background-color: rgb(241, 243, 245);
+    width: 98.5%;
+    height: 180px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 10px;
+  }
+
+  .oneleft {
+    width: 98%;
+    height: 200px;
+    float: left;
+  }
+
+  .oneleft h2, .oneleft h6, .oneleft span {
+    margin-left: 5px;
+    margin-bottom: 8px;
+  }
+
+  .email {
+    height: 20px;
+    width: 200px;
+    color: rgb(145, 156, 162);
+    background-color: white;
+    margin-left: 5px;
+  }
+
+  .submit {
+    height: 20px;
+    color: white;
+    background-color: rgb(186, 197,206);
+  }
+
+  .oneright {
+    width: 1%;
+    height: 0px;
+    float: left;
+  }
+
+  .two {
+    width: 99.5%;
+    height: 300px;
+    margin-top: 5px;
+  }
+
+  .two h2, .two h6 {
+    text-align: left;
+    margin-left: 5px;
+    clear: both;
+  }
+
+  .two h2 {
+    margin-top: 25px;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+  }
+
+  .two h6 {
+    font-size: 13px;
+    font-style: italic;
+    margin-top: 200px;
+  }
+
+  .two h4 {
+    font-size: 20px;
+    border-top: 1px solid pink;
+    margin-left: 5px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+
+  footer {
+    width: 99.5%;
+    height: 300px;
+    margin-top: 60px;
+  }
+
+  .footertop {
+    background-color: rgb(186, 197, 207);
+    width: 100%;
+    height: 45px;
+    margin-top: 15px;
+    margin-bottom: -10px;
+  }
+
+  .footertop h5, .footertop button {
+    float: left;
+  }
+
+  .footertop h5 {
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+
+  .footertop button {
+    height: 25px;
+    width: 100px;
+    margin-top: 6px;
+    margin-left: 15px;
+  }
+
+  .footerbottom {
+    background-color: rgb(145, 156, 162);
+    width: 100%;
+    height: 230px;
+    padding-bottom: -100px;
+    clear: both;
+  }
+
+  .bottomleft, .bottomright {
+    color: white;
+    font-size: 20px;
+    width: 49%;
+    height: 30px;
+    float: left;
+  }
+
+  .bottomleft h6 {
+    margin-top: 7px;
+  }
+
+  .bottomright h6 {
+    margin-top: 7px;
+    margin-right: 20px;
+    float: right;
+  }
+
+  .bottom2 {
+    border-top: 1px solid white;
+    width: 100%;
+    height: 200px;
+    clear: both;
+  }
+
+  .bot {
+    width: 100px;
+    height: 200px;
+    margin-left: 18px;
+    float: left;
+  }
+
+  .bot h5 {
+    font-size: 15px;
+    color: white;
+    text-align: center;
+  }
+
+  .bot h6 {
+    color: white;
+    flex-direction: 10px;
+    text-align: center;
+    margin-top: -5px;
+  }
+}
+
+@media only screen and (max-width: 900px) and (min-width: 800px) {
+  nav a, nav button, .three, .four, .oneright img, .oneleft img {
+    display: none;
+  }
+
+  #hamburger {
+    display: block;
+    font-size: 35px;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+  }
+
+  nav img {
+    width: 170px;
+    height: 60px;
+    display: block;
+    margin-left: 680px;
+  }
+
+  .one {
+    background-color: rgb(241, 243, 245);
+    width: 98.5%;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 10px;
+  }
+
+  .oneleft {
+    width: 98%;
+    height: 200px;
+    float: left;
+  }
+
+  .oneleft h2 {
+    font-size: 28px;
+    margin-left: 5px;
+    margin-bottom: 8px;
+  }
+
+  .oneleft span {
+    font-size: 20px;
+    margin-left: 0px;
+    margin-bottom: 8px;
+  }
+
+  .oneleft h6 {
+    font-size: 15px;
+    margin-left: 5px;
+    margin-bottom: 8px;
+  }
+
+  .email {
+    height: 20px;
+    width: 200px;
+    color: rgb(145, 156, 162);
+    background-color: white;
+    margin-left: 5px;
+  }
+
+  .submit {
+    height: 20px;
+    color: white;
+    background-color: rgb(186, 197,206);
+  }
+
+  .oneright {
+    width: 1%;
+    height: 0px;
+    float: left;
+  }
+
+  .two {
+    width: 99.5%;
+    height: 300px;
+    margin-top: 35px;
+  }
+
+  .two h2, .two h6 {
+    text-align: left;
+    margin-left: 5px;
+    clear: both;
+  }
+
+  .two h2 {
+    margin-top: 25px;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+  }
+
+  .two h6 {
+    font-size: 13px;
+    font-style: italic;
+    margin-top: 250px;
+  }
+
+  .two h4 {
+    font-size: 20px;
+    border-top: 1px solid pink;
+    margin-left: 150px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+
+  footer {
+    width: 99.5%;
+    height: 300px;
+    margin-top: 120px;
+  }
+
+  .footertop {
+    background-color: rgb(186, 197, 207);
+    width: 100%;
+    height: 45px;
+    margin-top: 40px;
+    margin-bottom: -10px;
+  }
+
+  .footertop h5, .footertop button {
+    float: left;
+  }
+
+  .footertop h5 {
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+
+  .footertop button {
+    height: 25px;
+    width: 100px;
+    margin-top: 6px;
+    margin-left: 15px;
+  }
+
+  .footerbottom {
+    background-color: rgb(145, 156, 162);
+    width: 100%;
+    height: 230px;
+    padding-bottom: -100px;
+    clear: both;
+  }
+
+  .bottomleft, .bottomright {
+    color: white;
+    font-size: 20px;
+    width: 49%;
+    height: 30px;
+    float: left;
+  }
+
+  .bottomleft h6 {
+    margin-top: 7px;
+  }
+
+  .bottomright h6 {
+    margin-top: 7px;
+    margin-right: 20px;
+    float: right;
+  }
+
+  .bottom2 {
+    border-top: 1px solid white;
+    width: 100%;
+    height: 200px;
+    clear: both;
+  }
+
+  .bot {
+    width: 100px;
+    height: 200px;
+    margin-left: 18px;
+    float: left;
+  }
+
+  .bot h5 {
+    font-size: 15px;
+    color: white;
+    text-align: center;
+  }
+
+  .bot h6 {
+    color: white;
+    flex-direction: 10px;
+    text-align: center;
+    margin-top: -5px;
+  }
+}
